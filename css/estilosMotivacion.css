@@ -1,0 +1,114 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+a{
+  color: white;
+  text-decoration-line: none;
+}
+
+a:hover{
+  color: #EDC92C;
+  text-decoration-line: none;
+}
+
+a:active{
+  color: #EDC92C;
+  text-decoration-line: none;
+}
+
+nav{
+  background: #274261;
+  font-size: 18px;
+  border-radius: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+footer{
+  background: #274261;
+  font-size: 18px;
+  border-radius: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.paddingNav{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.styleClassic{
+  color: white;
+  text-decoration-line: none;
+}
+
+.styleTitle{
+  font-weight: bold;
+  color: #5C790E;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.styleSubTitle{
+  padding: 10px;
+  color: #5C790E;
+}
+
+.bordes{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.styleBorder{
+  padding: 30px;
+  text-align: justify;
+}
+
+.youtube{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px 24px;
+  margin: 30px;
+  background-color: #5C790E;
+  border-radius: 40px;
+}
+
+.button:hover{
+  background-color: #EDC92C;
+  color: white;
+}
+
+.button:active{
+  background-color: #EDC92C;
+  color: white;
+}
+
+#logoNav{
+  width: 50px;
+  height: 49.5px;
+}
+
+#copyrightFooter{
+  font-size: 15px;
+}
+
+#paginaActual{
+  color: #EDC92C;
+}
