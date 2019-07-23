@@ -67,6 +67,10 @@ footer{
   border-radius: 40px;
 }
 
+.contenido{
+  min-height: 100vh;
+}
+
 .styleBorder{
   padding: 30px;
   text-align: justify;
