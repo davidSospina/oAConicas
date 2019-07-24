@@ -73,7 +73,7 @@ footer{
   border-style: solid;
   padding: 10px;
   border-radius: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .imagen{
@@ -81,6 +81,10 @@ footer{
   height: 49.5px;
   float: left;
   margin: 15px;
+}
+
+.imagenInicio{
+  margin-top: 50px;
 }
 
 .estiloContenido{
