@@ -50,13 +50,13 @@ footer{
   font-weight: bold;
   color: #5C790E;
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   padding: 10px;
 }
 
 .styleSubTitle{
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   color: #5C790E;
 }
 
@@ -76,9 +76,8 @@ footer{
   border-color: black;
   border-width: 1px;
   border-style: solid;
-  padding: 10px;
+  padding: 5px;
   border-radius: 250px;
-  margin-bottom: 20px;
 }
 
 .imagen{

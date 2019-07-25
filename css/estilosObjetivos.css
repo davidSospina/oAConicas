@@ -50,13 +50,13 @@ footer{
   font-weight: bold;
   color: #5C790E;
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   padding: 10px;
 }
 
 .styleSubTitle{
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   color: #5C790E;
 }
 
@@ -79,7 +79,7 @@ footer{
   border-style: solid;
   padding: 10px;
   border-radius: 250px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .imagen{
@@ -90,14 +90,14 @@ footer{
 }
 
 .imagenInicio{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .imagenTitulo{
   width: 50px;
   height: 49.5px;
   float: left;
-  margin: 25px;
+  margin: 15px;
 }
 
 .contenido{
