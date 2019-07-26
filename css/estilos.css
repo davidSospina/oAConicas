@@ -50,8 +50,8 @@ footer{
   font-weight: bold;
   color: #5C790E;
   text-align: center;
-  font-size: 50px;
-  padding: 10px;
+  font-size: 35px;
+  padding: 3px;
 }
 
 .styleSubTitle{
@@ -68,7 +68,7 @@ footer{
 }
 
 .contenido{
-  min-height: 100vh;
+  margin: 20px;
 }
 
 .styleBorder{
