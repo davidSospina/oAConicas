@@ -111,34 +111,9 @@ footer{
   width: 200px;
 }
 
-.button{
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  text-decoration-line: none;
-  padding: 10px 24px;
-  margin: 30px;
-  background-color: #5C790E;
-  border-radius: 40px;
-}
-
-.button:hover{
-  background-color: #EDC92C;
-  color: white;
-}
-
-.button:active{
-  background-color: #EDC92C;
-  color: white;
-}
-
 #logoNav{
   width: 60px;
   height: 59.5px;
-}
-
-#copyrightFooter{
-  font-size: 15px;
 }
 
 #paginaActual{
