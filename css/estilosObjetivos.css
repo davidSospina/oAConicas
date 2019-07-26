@@ -51,7 +51,7 @@ footer{
   color: #5C790E;
   text-align: center;
   font-size: 35px;
-  padding: 10px;
+  padding-top: 3px;
 }
 
 .styleSubTitle{
@@ -61,7 +61,7 @@ footer{
 }
 
 .descripcion{
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .bordes{
@@ -77,38 +77,38 @@ footer{
   border-color: black;
   border-width: 1px;
   border-style: solid;
-  padding: 10px;
+  padding: 1px;
   border-radius: 250px;
   margin-bottom: 20px;
 }
 
 .imagen{
-  width: 50px;
-  height: 49.5px;
+  width: 40px;
+  height: 40px;
   float: left;
-  margin: 10px;
+  margin: 15px;
 }
 
 .imagenInicio{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .imagenTitulo{
-  width: 50px;
-  height: 49.5px;
+  width: 40px;
+  height: 40px;
   float: left;
   margin: 15px;
 }
 
 .contenido{
-  min-height: 100vh;
+  margin: 20px;
 }
 
 .youtube{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 200px;
 }
 
 .button{
