@@ -37,7 +37,7 @@ footer{
 }
 
 .paddingNav{
-  padding-left: 25px;
+  padding-left: 30px;
   padding-top: 5px;
 }
 
@@ -70,6 +70,7 @@ footer{
   border-style: solid;
   padding: 10px;
   border-radius: 40px;
+  margin-top: 20px;
 }
 
 .bordesTitulo{
@@ -78,6 +79,7 @@ footer{
   border-style: solid;
   padding: 1px;
   border-radius: 250px;
+  margin-bottom: 20px;
 }
 
 .imagen{
@@ -88,7 +90,9 @@ footer{
 }
 
 .contenido{
-  margin: 20px;
+  margin-left: 20px;
+  margin-right:: 20px;
+  margin-bottom: 20px;
 }
 
 .styleBorder{
@@ -100,17 +104,21 @@ footer{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 225px;
+  height: auto;
 }
 
 .button{
   font-size: 18px;
   font-weight: bold;
   color: white;
-  padding: 10px 24px;
+  padding: 15px;
   background-color: #5C790E;
   border-radius: 40px;
   float: center;
+  margin: 10px;
 }
 
 .button:hover{
