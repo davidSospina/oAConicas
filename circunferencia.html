@@ -65,7 +65,15 @@
           <div class="col-12">
             <div class="box">
               <div class="row">
+              <div class="col-12">
+                <nav class="nav nav-pills flex-column flex-sm-row" id="contenido">
+                  <a class="flex-sm-fill text-sm-center nav-link" href="#definicion">Definición</a>
+                  <a class="flex-sm-fill text-sm-center nav-link" href="#ecuaciones">Ecuaciones</a>
+                </nav>
+              </div>
+
                 <!-- Botones -->
+                <!--
                 <div class="col-md-2 col-sm-12">
                   <div class="">
                     <a role="button" id="botonActual" class="btn button" href="circunferencia.html">Definición</a>
@@ -75,13 +83,14 @@
                     <a role="button" class="btn button" href="circunferencia.html">Definición</a>
                   </div>
                 </div>
+              -->
 
-                <div class="col-md-10 col-sm-12 bordes">
-                  <p class="styleSubTitle">Definición</p>
+                <div class="col-md-12 col-sm-12 bordes" data-spy="scroll" data-target="#contenido" data-offset="0">
+                  <p class="styleSubTitle" id="definicion">Definición</p>
                   <p class="styleBorder">
                     Una circunferencia se define como el lugar geométrico de los puntos del plano
-                    equidistantes de otro, llamado centro de la circunferencia. (Representación a la cual hace
-                    referencia: verbal). <br><br>
+                    equidistantes de otro, llamado centro de la circunferencia.(Representación a la cual
+                    hacereferencia: verbal).<br>
                     No debemos nunca confundir el concepto de círculo con el concepto de circunferencia,
                     que en realidad una circunferencia es la curva que encierra a un círculo (la circunferencia
                     es una curva, el círculo una superficie).
@@ -90,14 +99,39 @@
                   <div class="row">
                     <img class="imagenCircunferencia" src="./imagenes/circunferencia1.png" alt="Imagen circunferencia">
                   </div>
+                  <p>(Representación a la cual hace referencia: Gráfica)</p>
+                  <!-- Ecuaciones -->
+                  <div class="row ecuaciones" id="ecuaciones">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <p class="style2doSubTitle">Ecuación general:</p>
+                          <p> x<sup>2</sup> + y<sup>2</sup> + Dx + Ey + F = 0 </p>
+                        </div>
+                        <div class="row middle-xs center-xs">
+                          <p>&rArr;</p>
+                        </div>
+                        <div class="col-md-4">
+                          <p class="style2doSubTitle">Ecuación ordinaria:</p>
+                          <p>( x - &alpha; )<sup>2</sup> + ( y - &beta; )<sup>2</sup> = k</p>
+                        </div>
+                        <div class="row middle-xs center-xs">
+                          <p>&rArr;</p>
+                        </div>
+                        <div class="col-md-4">
+                          <p> Sí k > 0 &rarr; Circunferencia</p>
+                          <p> Sí k = 0 &rarr; Punto</p>
+                          <p> Sí k < 0 &rarr; Conjunto vacío</p>
+                        </div>
+                      </div>
+                      <p>(Representación a la cual hace referencia: simbólica)</p>
+                    </div>
+                  </div>
+                </div>
 
-                </div>
-                </div>
               </div>
-
-
+            </div>
           </div>
-
         </div>
 
         <!-- Botones -->
