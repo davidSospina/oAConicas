@@ -60,6 +60,16 @@ footer{
   color: #5C790E;
 }
 
+.style2doSubTitle{
+  padding: 3px;
+  font-size: 20px;
+  color: #5C790E;
+}
+
+.ecuaciones{
+  padding: 10px;
+}
+
 .descripcion{
   font-size: 15px;
 }
@@ -70,6 +80,16 @@ footer{
   border-style: solid;
   padding: 10px;
   border-radius: 40px;
+  margin-top: 20px;
+}
+
+.bordesEcuaciones{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 40px;
+  margin: 3px;
 }
 
 .bordesTitulo{
@@ -78,6 +98,7 @@ footer{
   border-style: solid;
   padding: 1px;
   border-radius: 250px;
+  margin-bottom: 20px;
 }
 
 .imagen{
@@ -88,19 +109,61 @@ footer{
 }
 
 .contenido{
-  margin: 20px;
+  margin-left: 20px;
+  margin-right:: 20px;
+  margin-bottom: 20px;
 }
 
 .styleBorder{
-  padding: 30px;
+  padding: 20px;
   text-align: justify;
 }
 
-.youtube{
+.imagenParabola{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 100%;
+  min-width: 220px;
+  max-width: 500px;
+  padding: 10px;
+  height: auto;
+}
+
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  background-color: #5C790E;
+  border-radius: 40px;
+  float: center;
+  margin: 10px;
+}
+
+.button:hover{
+  background-color: #EDC92C;
+  color: white;
+}
+
+.button:active{
+  background-color: #EDC92C;
+  color: white;
+}
+
+#negrita{
+  font-weight: bold;
+}
+
+#infoAdicional{
+  font-weight: bold;
+  color: #EDC92C;
+  text-align: center;
+  font-size: 15px;
+}
+
+#botonActual{
+  background-color: #EDC92C;
 }
 
 #logoNav{
