@@ -36,18 +36,19 @@
   	           <div class="navbar-nav">
                  <a href="motivacion.html" class="nav-item nav-light active paddingNav styleClassic">Motivación</a>
                  <a href="objetivos.html" class="nav-light nav-light active paddingNav styleClassic">Objetivos</a>
-                 <a href="contenidos.html" id="paginaActual" class="nav-item nav-light active paddingNav styleClassic">¿Qué vas a aprender hoy?</a>
+                 <a href="contenidos.html" id="paginaActual" class="animated pulse nav-item nav-light active paddingNav styleClassic">¿Qué vas a aprender hoy?</a>
                  <a href="actividades.html" class="nav-item nav-light active paddingNav styleClassic">Actividades</a>
-                 <a href="comoSeUsa.html" class="animated pulse nav-item nav-light active paddingNav styleClassic">¿Como se usa?</a>
-                 <!--<a class="nav-item dropdown-toggle" href="contenidos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <a href="comoSeUsa.html" class="nav-item nav-light active paddingNav styleClassic">¿Como se usa?</a>
+                <!--
+                 <a class="nav-item dropdown-toggle" href="contenidos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            ¿Qué vas a aprender hoy?
                          </a>
                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                            <a class="dropdown-item" href="#">Parábola</a>
                            <a class="dropdown-item" href="#">Elipse</a>
                          </div>
-                  -->
   	           </div>
+             -->
   	        </div>
   	    </nav>
 
@@ -59,41 +60,169 @@
           <img class="imagen" src="./imagenes/logoConicas.png" alt="Logo Motivación">
           <p class="styleTitle">Hipérbola</p>
         </div>
+
         <div class="row contenido middle-xs center-xs">
-          <div class="col-md-8 col-sm-10 col-xs-11">
-            <div class="box bordes">
+          <div class="col-12">
+            <div class="box">
               <div class="row">
-                <img class="youtube" src="./imagenes/logoYoutube.png" alt="Logo Youtube">
-              </div>
-              <div class="row">
-                <p class="styleBorder">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum.
-                </p>
+                <div class="col-12">
+
+                  <nav class="nav flex-column flex-sm-row" id="contenido">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#definicion">1. Definición</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#parabolaHorizontal">2. Parábolas horizontales</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#parabolaVertical">3. Parábolas verticales</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#parabolaHyV">4. Parábolas horizontales y verticales con vértice fuera del origen</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#ecuaciones">5. Ecuaciones</a>
+                  </nav>
+
+                </div>
+
+
+                <!-- Botones -->
+                <!--
+                <div class="col-md-2 col-sm-12">
+                  <div class="">
+                    <a role="button" id="botonActual" class="btn button" href="#definicion">Definición</a>
+                    <a role="button" class="btn button" href="#parabolaHorizontal">Parábolas horizontales</a>
+                    <a role="button" class="btn button" href="#parabolaVertical">Parábolas verticales</a>
+                  </div>
+                </div>
+                -->
+
+                  <div data-spy="scroll" data-target="#contenido" data-offset="0" class="col-md-12 col-sm-12 bordes">
+
+                    <div class="contenidoEstatico">
+                  		<ul>
+                  			<li><a href="#definicion" class="icon">1</a></li>
+                  			<li><a href="#parabolaHorizontal" class="icon">2</a></li>
+                  			<li><a href="#parabolaVertical" class="icon">3</a></li>
+                  			<li><a href="#parabolaHyV" class="icon">4</a></li>
+                  			<li><a href="#ecuaciones" class="icon">5</a></li>
+                        <li><a href="contenidos.html" class="icon"><img class="imgContenidoFijo" src="./imagenes/inicio.png" alt="Regresar"></a></li>
+                  		</ul>
+                  	</div>
+
+                    <!-- Contenido -->
+                    <p class="styleSubTitle" id="definicion">Definición</p>
+                    <p class="styleBorder">
+                      Es el lugar geométrico de los puntos de un plano que tiene equidistancia
+                      respecto a un punto fijo y una recta. Este lugar se crea a partir de la
+                      acción de un plano que es paralelo a la generatriz y que disecciona un cono circular.
+                      (Representación a la cual hace referencia: verbal).<br><br>
+                      Considerando la posición del punto fijo F y la de la directriz, la parábola
+                      con vértice en el origen puede abrir en forma horizontal (el foco está a la derecha o a
+                      la izquierda del origen) o en forma vertical (el foco está arriba o abajo del origen).
+                    </p>
+
+                    <!-- Tema 1 -->
+                    <p class="styleSubTitle" id="parabolaHorizontal">Parábolas horizontales</p>
+                    <p class="styleBorder">
+                      Cuando se tiene el eje focal Horizontal y su vértice en el origen V (0,0,) la ecuación
+                      toma la forma canónica sustituyendo los valores de las coordenadas del vértice en la ecuación
+                      ordinaria ( y - k )<sup>2</sup> = 4p ( x - h ). <br>
+                      La ecuación resultante es:
+                    </p>
+                    <p class="middle-xs center-xs">
+                      ( y – 0 )<sup>2</sup> = 4p ( x – h )
+                    </p>
+                    <p class="middle-xs center-xs">
+                      y<sup>2</sup> = 4px
+                    </p>
+                    <p>(Representación a la cual hace referencia: simbólica)</p>
+                    <p>Eje focal sobre el eje X (horizontal)</p>
+                    <!-- Imagen parabola -->
+                    <div class="row">
+                      <img class="imagenParabola" src="./imagenes/parabola1.jpg" alt="Imagen parábola">
+                    </div>
+                    <p>(Representación a la cual hace referencia: Gráfica)</p>
+
+                    <!-- Tema 2 -->
+                    <p class="styleSubTitle" id="parabolaVertical">Parábolas verticales</p>
+                    <p>
+                      Cuando el eje focal es vertical y su vértice en el origen V (0,0)
+                      la ecuación tiene la forma ordinaria: ( x – k )<sup>2</sup>  = 4p ( y - h ).<br>
+                    </p>
+                    <p> (Representación a la cual hace referencia: simbólica)</p>
+                    <p class="middle-xs center-xs">Y sustituyendo las coordenadas del vértice </p>
+                    <p class="middle-xs center-xs">( x – 0 )<sup>2</sup> = 4p ( y - 0 )</p>
+                    <p class="middle-xs center-xs">La ecuación resultante en su forma canónica es</p>
+                    <p class="middle-xs center-xs">x<sup>2</sup> = 4py</p>
+                    <p>(Representación a la cual hace referencia: simbólica)</p>
+                    <!-- Imagen parabola -->
+                    <div class="row">
+                      <img class="imagenParabola" src="./imagenes/parabola2.jpg" alt="Imagen parábola">
+                    </div>
+                    <p>(Representación a la cual hace referencia: Gráfica)</p>
+
+                    <!-- Tema 3 -->
+                    <p class="styleSubTitle" id="parabolaHyV">Parábolas horizontales y verticales con vértice fuera del origen</p>
+                    <p>
+                      Veamos ahora el caso de parábolas cuyo vértice se encuentre en cualquier punto fuera del origen V(h. k).
+                    </p>
+
+                    <p class="style2doSubTitle">Parábolas horizontales</p>
+                    <p>
+                      La forma ordinaria de la ecuación de una parábola con vértice V (h, k), foco en
+                      F(h + p, k) y directriz la recta x = h- p (parábola horizontal) es:
+                    </p>
+                    <p>( y - k )<sup>2</sup> = 4p ( x - h )</p>
+                    <p>(Representación a la cual hace referencia: simbólica)</p>
+                    <!-- Imagen parabola -->
+                    <div class="row">
+                      <img class="imagenParabola" src="./imagenes/parabola3.jpg" alt="Imagen parábola">
+                    </div>
+                    <p>(Representación a la cual hace referencia: Gráfica)</p>
+
+                    <p class="style2doSubTitle">Parábolas verticales</p>
+                    <p>
+                      La forma ordinaria de la ecuación de una parábola con vértice v (h, k),
+                      foco en el punto F (h, k +p) y directriz la recta y = k – p es :
+                    </p>
+                    <p>( x – h )<sup>2</sup> = 4p ( y - k )</p>
+                    <p>
+                      El eje de la parábola es vertical y el foco está a P unidades (orientadas) del vértice.
+                      Eje focal paralelo al eje y
+                    </p>
+                    <!-- Imagen parabola -->
+                    <div class="row">
+                      <img class="imagenParabola" src="./imagenes/parabola4.jpg" alt="Imagen parábola">
+                    </div>
+                    <p>(Representación a la cual hace referencia: Gráfica)</p>
+
+                    <!-- Ecuaciones -->
+                    <p class="styleSubTitle" id="ecuaciones">Ecuación general de la parábola</p>
+                    <p class="style2doSubTitle">Conversión de la forma ordinaria a la forma general</p>
+                    <p>
+                      Si consideramos las ecuaciones de la parábola con vértice en
+                      cualquier punto del plano tendrá la ecuación:
+                    </p>
+                    <p>( y – k )<sup>2</sup>  = 4p ( x - h ) &rArr; sí su eje focal es horizontal</p>
+                    <p>( x – h )<sup>2</sup> = 4p( y – k ) &rArr; sí su eje focal es vertical</p>
+                    <p>La ecuación general se obtiene desarrollando el binomio al cuadrado</p>
+                    <p>Y<sup>2</sup> - 2ky + k<sup>2</sup> = 4px – 4ph</p>
+                    <p>igualando a cero la ecuación</p>
+                    <p>Y<sup>2</sup> – 4px - 2ky + k<sup>2</sup> + 4ph = 0</p>
+                    <p>En el desarrollo del binomio podemos definir las constantes, empleando el principio de cerradura de los números reales, de la siguiente manera:</p>
+                    <p>-4p = D</p>
+                    <p>-2k = E</p>
+                    <p>K<sup>2</sup> + 4ph = F</p>
+                    <p>Por lo que la ecuación se transforma a:</p>
+                    <p>y<sup>2</sup> + Dx + Ey + F = 0 resultando la ecuación general de la parábola horizontal</p>
+                    <p>Por analogía se concluye que la parábola con eje vertical será x<sup>2</sup> + Dx + Ey + F = 0 donde:</p>
+                    <p>-2h = D</p>
+                    <p>-4p = E</p>
+                    <p>h<sup>2</sup> + 4pk = F</p>
+                    <p>(Representación a la cual hace referencia: simbólica)</p>
+                </div>
               </div>
             </div>
-
           </div>
-
         </div>
 
         <!-- Botones -->
         <div class="row">
           <div class="col-md-12 text-center">
+            <a role="button" class="btn button" href="actividadParabola.html">Actividad</a><br>
             <a href="contenidos.html"><img src="./imagenes/inicio.png" alt="Regresar"></a>
           </div>
         </div>
