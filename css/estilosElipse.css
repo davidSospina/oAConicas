@@ -124,13 +124,35 @@ footer{
   text-align: justify;
 }
 
-.imagenParabola{
+.imagenElipse{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   min-width: 220px;
   max-width: 500px;
+  padding: 10px;
+  height: auto;
+}
+
+.imagenElipseVertical{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  width: auto;
+  padding: 10px;
+  min-height: 250px;
+  max-height: 500px;
+}
+
+.imagenEcuaciones{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 100px;
+  max-width: 150px;
   padding: 10px;
   height: auto;
 }

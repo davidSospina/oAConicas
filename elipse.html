@@ -69,10 +69,8 @@
 
                   <nav class="nav flex-column flex-sm-row" id="contenido">
                     <a class="flex-sm-fill text-sm-center nav-link" href="#definicion">1. Definición</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="#parabolaHorizontal">2. Parábolas horizontales</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="#parabolaVertical">3. Parábolas verticales</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="#parabolaHyV">4. Parábolas horizontales y verticales con vértice fuera del origen</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="#ecuaciones">5. Ecuaciones</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#elementos">2. Elementos</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#ecuaciones">3. Ecuaciones</a>
                   </nav>
 
                 </div>
@@ -91,128 +89,133 @@
 
                   <div data-spy="scroll" data-target="#contenido" data-offset="0" class="col-md-12 col-sm-12 bordes">
 
+                    <!-- Numeros fijos en pantalla -->
                     <div class="contenidoEstatico">
                   		<ul>
                   			<li><a href="#definicion" class="icon">1</a></li>
-                  			<li><a href="#parabolaHorizontal" class="icon">2</a></li>
-                  			<li><a href="#parabolaVertical" class="icon">3</a></li>
-                  			<li><a href="#parabolaHyV" class="icon">4</a></li>
-                  			<li><a href="#ecuaciones" class="icon">5</a></li>
+                  			<li><a href="#elementos" class="icon">2</a></li>
+                  			<li><a href="#ecuaciones" class="icon">3</a></li>
                         <li><a href="contenidos.html" class="icon"><img class="imgContenidoFijo" src="./imagenes/inicio.png" alt="Regresar"></a></li>
                   		</ul>
                   	</div>
 
                     <!-- Contenido -->
+
+                    <!-- Definicion -->
                     <p class="styleSubTitle" id="definicion">Definición</p>
                     <p class="styleBorder">
-                      Es el lugar geométrico de los puntos de un plano que tiene equidistancia
-                      respecto a un punto fijo y una recta. Este lugar se crea a partir de la
-                      acción de un plano que es paralelo a la generatriz y que disecciona un cono circular.
-                      (Representación a la cual hace referencia: verbal).<br><br>
-                      Considerando la posición del punto fijo F y la de la directriz, la parábola
-                      con vértice en el origen puede abrir en forma horizontal (el foco está a la derecha o a
-                      la izquierda del origen) o en forma vertical (el foco está arriba o abajo del origen).
+                      Es el lugar geométrico del conjunto de puntos en el plano cuya suma de las distancias
+                      a dos puntos fijos (FOCOS) es constante.
+                      <i>(Representación a la cual hace referencia: verbal)</i>.<br><br>
                     </p>
+                    <div class="row">
+                      <img class="imagenElipse" src="./imagenes/elipse1.jpg" alt="Imagen elipse">
+                    </div>
+                    <p><i>(Representación a la cual hace referencia: Gráfica)</i></p>
+                    <p>
+                      En donde:<br>
+                      a es igual a la distancia del centro al vértice del eje mayor.<br>
+                      b es igual a la distancia del centro al vértice del eje menor.<br>
+                      c es igual a la distancia del centro a cualquiera de los puntos fijos o focos.<br>
+                      Este lugar geométrico se puede comprobar experimentalmente empleando una cuerda sujeta a dos puntos fijos y un lápiz;
+                      el trazo corresponderá a una elipse.
+                    </p><hr />
 
                     <!-- Tema 1 -->
-                    <p class="styleSubTitle" id="parabolaHorizontal">Parábolas horizontales</p>
-                    <p class="styleBorder">
-                      Cuando se tiene el eje focal Horizontal y su vértice en el origen V (0,0,) la ecuación
-                      toma la forma canónica sustituyendo los valores de las coordenadas del vértice en la ecuación
-                      ordinaria ( y - k )<sup>2</sup> = 4p ( x - h ). <br>
-                      La ecuación resultante es:
-                    </p>
-                    <p class="middle-xs center-xs">
-                      ( y – 0 )<sup>2</sup> = 4p ( x – h )
-                    </p>
-                    <p class="middle-xs center-xs">
-                      y<sup>2</sup> = 4px
-                    </p>
-                    <p>(Representación a la cual hace referencia: simbólica)</p>
-                    <p>Eje focal sobre el eje X (horizontal)</p>
-                    <!-- Imagen parabola -->
+                    <p class="styleSubTitle" id="elementos">Elementos de la Elipse</p>
+                    <span class="style2doSubTitle">Eje mayor:</span>
+                    <span>
+                      Es la recta donde se localizan los vértices y los focos.
+                      La longitud del eje mayor se define como dos veces la distancia del centro al vértice (2 a).
+                    </span><br><hr width="25%" />
+                    <span class="style2doSubTitle">Eje menor:</span>
+                    <span>
+                      Es la recta que no contiene al foco ni al vértice.<br>
+                      La longitud del eje menor se define como dos veces la distancia del centro
+                      hacia cualquiera de los puntos del vértice del eje menor (2b).
+                    </span><br><hr width="25%" />
+                    <span class="style2doSubTitle">Centro:</span>
+                    <span>
+                      Es un punto del eje mayor, y está situado a la mitad de los vértices.
+                    </span><br><hr width="25%" />
+                    <span class="style2doSubTitle">Vértice:</span>
+                    <span>
+                      Puntos donde toca la elipse al eje mayor.
+                    </span><br><hr width="25%" />
+                    <span class="style2doSubTitle">Lado recto:</span>
+                    <span>
+                      Es un segmento de recta perpendicular al eje y que
+                      pasa por los focos y tiene como extremos los lados de la elipse y su longitud es:
+                    </span>
                     <div class="row">
-                      <img class="imagenParabola" src="./imagenes/parabola1.jpg" alt="Imagen parábola">
+                      <img class="imagenEcuaciones" src="./imagenes/elipse1.1.png" alt="Ecuación lado recto">
+                    </div><hr width="25%" />
+                    <span class="style2doSubTitle">Excentricidad:</span>
+                    <span>
+                      Es el cociente de la distancia entre los focos
+                      a la distancia entre los vértices; está sólo se encuentra entre cero y uno.
+                    </span>
+                    <div class="row">
+                      <img class="imagenEcuaciones" src="./imagenes/elipse1.2.png" alt="Ecuación excentricidad">
                     </div>
-                    <p>(Representación a la cual hace referencia: Gráfica)</p>
+                    <p>
+                      La excentricidad determina la forma de la elipse, entre más cerca de uno se encuentre,
+                      la forma de la elipse será alargada, y si, por el contrario más cerca de cero está,
+                      su forma es más redonda.
+                    </p><hr />
 
                     <!-- Tema 2 -->
-                    <p class="styleSubTitle" id="parabolaVertical">Parábolas verticales</p>
-                    <p>
-                      Cuando el eje focal es vertical y su vértice en el origen V (0,0)
-                      la ecuación tiene la forma ordinaria: ( x – k )<sup>2</sup>  = 4p ( y - h ).<br>
-                    </p>
-                    <p> (Representación a la cual hace referencia: simbólica)</p>
-                    <p class="middle-xs center-xs">Y sustituyendo las coordenadas del vértice </p>
-                    <p class="middle-xs center-xs">( x – 0 )<sup>2</sup> = 4p ( y - 0 )</p>
-                    <p class="middle-xs center-xs">La ecuación resultante en su forma canónica es</p>
-                    <p class="middle-xs center-xs">x<sup>2</sup> = 4py</p>
-                    <p>(Representación a la cual hace referencia: simbólica)</p>
-                    <!-- Imagen parabola -->
+                    <p class="styleSubTitle" id="ecuaciones">Ecuaciones</p>
+
+                    <!-- Tema 2.1 -->
+                    <hr width="25%" />
+                    <p class="style2doSubTitle">Ecuaciones con centro en el origen</p>
                     <div class="row">
-                      <img class="imagenParabola" src="./imagenes/parabola2.jpg" alt="Imagen parábola">
+                      <img class="imagenElipse" src="./imagenes/elipse1.3.jpg" alt="Imagen ecuaciones">
                     </div>
-                    <p>(Representación a la cual hace referencia: Gráfica)</p>
-
-                    <!-- Tema 3 -->
-                    <p class="styleSubTitle" id="parabolaHyV">Parábolas horizontales y verticales con vértice fuera del origen</p>
-                    <p>
-                      Veamos ahora el caso de parábolas cuyo vértice se encuentre en cualquier punto fuera del origen V(h. k).
-                    </p>
-
-                    <p class="style2doSubTitle">Parábolas horizontales</p>
-                    <p>
-                      La forma ordinaria de la ecuación de una parábola con vértice V (h, k), foco en
-                      F(h + p, k) y directriz la recta x = h- p (parábola horizontal) es:
-                    </p>
-                    <p>( y - k )<sup>2</sup> = 4p ( x - h )</p>
-                    <p>(Representación a la cual hace referencia: simbólica)</p>
-                    <!-- Imagen parabola -->
+                    <p><i>(Representación a la cual hace referencia: simbólica)</i></p>
+                    <p class="style2doSubTitle">Gráfica No. 1</p>
                     <div class="row">
-                      <img class="imagenParabola" src="./imagenes/parabola3.jpg" alt="Imagen parábola">
+                      <img class="imagenElipse" src="./imagenes/elipse2.jpg" alt="Imagen elipse">
                     </div>
-                    <p>(Representación a la cual hace referencia: Gráfica)</p>
-
-                    <p class="style2doSubTitle">Parábolas verticales</p>
-                    <p>
-                      La forma ordinaria de la ecuación de una parábola con vértice v (h, k),
-                      foco en el punto F (h, k +p) y directriz la recta y = k – p es :
-                    </p>
-                    <p>( x – h )<sup>2</sup> = 4p ( y - k )</p>
-                    <p>
-                      El eje de la parábola es vertical y el foco está a P unidades (orientadas) del vértice.
-                      Eje focal paralelo al eje y
-                    </p>
-                    <!-- Imagen parabola -->
+                    <p><i>(Representación a la cual hace referencia: Gráfica)</i></p>
                     <div class="row">
-                      <img class="imagenParabola" src="./imagenes/parabola4.jpg" alt="Imagen parábola">
+                      <img class="imagenElipse" src="./imagenes/elipse2.1.jpg" alt="Imagen ecuaciones">
                     </div>
-                    <p>(Representación a la cual hace referencia: Gráfica)</p>
+                    <p><i>(Representación a la cual hace referencia: simbólica)</i></p>
+                    <p class="style2doSubTitle">Gráfica No. 2</p>
+                    <div class="row">
+                      <img class="imagenElipseVertical" src="./imagenes/elipse3.jpg" alt="Imagen elipse">
+                    </div>
+                    <p><i>(Representación a la cual hace referencia: Gráfica)</i></p>
+                    <div class="row">
+                      <img class="imagenElipse" src="./imagenes/elipse3.1.jpg" alt="Imagen elipse">
+                    </div><hr width="25%" />
 
-                    <!-- Ecuaciones -->
-                    <p class="styleSubTitle" id="ecuaciones">Ecuación general de la parábola</p>
-                    <p class="style2doSubTitle">Conversión de la forma ordinaria a la forma general</p>
-                    <p>
-                      Si consideramos las ecuaciones de la parábola con vértice en
-                      cualquier punto del plano tendrá la ecuación:
-                    </p>
-                    <p>( y – k )<sup>2</sup>  = 4p ( x - h ) &rArr; sí su eje focal es horizontal</p>
-                    <p>( x – h )<sup>2</sup> = 4p( y – k ) &rArr; sí su eje focal es vertical</p>
-                    <p>La ecuación general se obtiene desarrollando el binomio al cuadrado</p>
-                    <p>Y<sup>2</sup> - 2ky + k<sup>2</sup> = 4px – 4ph</p>
-                    <p>igualando a cero la ecuación</p>
-                    <p>Y<sup>2</sup> – 4px - 2ky + k<sup>2</sup> + 4ph = 0</p>
-                    <p>En el desarrollo del binomio podemos definir las constantes, empleando el principio de cerradura de los números reales, de la siguiente manera:</p>
-                    <p>-4p = D</p>
-                    <p>-2k = E</p>
-                    <p>K<sup>2</sup> + 4ph = F</p>
-                    <p>Por lo que la ecuación se transforma a:</p>
-                    <p>y<sup>2</sup> + Dx + Ey + F = 0 resultando la ecuación general de la parábola horizontal</p>
-                    <p>Por analogía se concluye que la parábola con eje vertical será x<sup>2</sup> + Dx + Ey + F = 0 donde:</p>
-                    <p>-2h = D</p>
-                    <p>-4p = E</p>
-                    <p>h<sup>2</sup> + 4pk = F</p>
-                    <p>(Representación a la cual hace referencia: simbólica)</p>
+                    <!-- Tema 2.2 -->
+                    <p class="style2doSubTitle">Ecuaciones con centro (h, k) fuera del origen</p>
+                    <div class="row">
+                      <img class="imagenElipse" src="./imagenes/elipse3.2.jpg" alt="Imagen ecuaciones">
+                    </div>
+                    <p class="style2doSubTitle">Gráfica No. 1</p>
+                    <div class="row">
+                      <img class="imagenElipse" src="./imagenes/elipse4.jpg" alt="Imagen elipse">
+                    </div>
+                    <p><i>(Representación a la cual hace referencia: Gráfica)</i></p>
+                    <div class="row">
+                      <img class="imagenElipse" src="./imagenes/elipse4.1.png" alt="Imagen ecuaciones">
+                    </div>
+                    <p><i>(Representación a la cual hace referencia: simbólica)</i></p>
+
+                    <p class="style2doSubTitle">Gráfica No. 2</p>
+                    <div class="row">
+                      <img class="imagenElipseVertical" src="./imagenes/elipse5.png" alt="Imagen elipse">
+                    </div>
+                    <p><i>(Representación a la cual hace referencia: Gráfica)</i></p>
+                    <div class="row">
+                      <img class="imagenElipse" src="./imagenes/elipse5.1.jpg" alt="Imagen ecuaciones">
+                    </div>
+                    <p><i>(Representación a la cual hace referencia: simbólica)</i></p>
                 </div>
               </div>
             </div>
@@ -222,7 +225,7 @@
         <!-- Botones -->
         <div class="row">
           <div class="col-md-12 text-center">
-            <a role="button" class="btn button" href="actividadParabola.html">Actividad</a><br>
+            <a role="button" class="btn button" href="actividadElipse.html">Actividad</a><br>
             <a href="contenidos.html"><img src="./imagenes/inicio.png" alt="Regresar"></a>
           </div>
         </div>
