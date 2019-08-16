@@ -130,7 +130,7 @@ footer{
   margin-right: auto;
   width: 100%;
   min-width: 220px;
-  max-width: 500px;
+  max-width: 400px;
   padding: 10px;
   height: auto;
 }
@@ -210,6 +210,17 @@ footer{
 .contenidoEstatico ul li a:hover {
 	background: #EDC92C; /* Cambiamos el fondo cuando el usuario pase el mouse */
 	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+#imagenElipse{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 220px;
+  max-width: 300px;
+  padding: 10px;
+  height: auto;
 }
 
 #negrita{
