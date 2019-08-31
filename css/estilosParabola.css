@@ -108,6 +108,17 @@ footer{
   margin: 15px;
 }
 
+.imagenTabulacion{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
 .imgContenidoFijo{
   width: 30px;
   height: 30px;

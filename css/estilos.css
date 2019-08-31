@@ -83,6 +83,14 @@ footer{
   width: 200px;
 }
 
+.imagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 400px;
+}
+
 #logoNav{
   width: 60px;
   height: 59.5px;
