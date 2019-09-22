@@ -73,14 +73,15 @@ footer{
 
 .styleBorder{
   padding: 30px;
-  text-align: justify;
+  text-align: none;
 }
 
 .youtube{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 80%;
+  height: 40%;
 }
 
 .imagen{
@@ -100,7 +101,7 @@ footer{
   font-size: 15px;
 }
 
-@media screen and (min-device-width: 310px) and (max-device-width: 560px){
+@media screen and (min-device-width: 250px) and (max-device-width: 560px){
   .styleTitle{
     font-weight: bold;
     color: #5C790E;

@@ -55,7 +55,7 @@ footer{
 }
 
 .styleSubTitle{
-  padding: 10px;
+  padding: 5px;
   font-size: 25px;
   color: #5C790E;
 }
@@ -68,7 +68,7 @@ footer{
   border-color: black;
   border-width: 1px;
   border-style: solid;
-  padding: 10px;
+  padding: 9px;
   border-radius: 250px;
   margin-bottom: 20px;
 }
@@ -83,10 +83,9 @@ footer{
 }
 
 .imagen{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   float: left;
-  margin: 15px;
 }
 
 .imagenInicio{
@@ -94,10 +93,10 @@ footer{
 }
 
 .imagenTitulo{
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   float: left;
-  margin: 15px;
+  margin: 6px;
 }
 
 .contenido{
@@ -120,7 +119,7 @@ footer{
   color: #EDC92C;
 }
 
-@media screen and (min-device-width: 310px) and (max-device-width: 560px){
+@media screen and (min-device-width: 250px) and (max-device-width: 560px){
   .styleTitle{
     font-weight: bold;
     color: #5C790E;

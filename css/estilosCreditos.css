@@ -61,7 +61,8 @@ footer{
 }
 
 .descripcion{
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .bordes{
@@ -81,26 +82,34 @@ footer{
 }
 
 .imagen{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   float: left;
-  margin: 15px;
+  margin: 10px;
+}
+
+.imagenUnal{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 100px;
+  max-width: 350px;
+  padding: 10px;
+  height: auto;
+}
+
+.espacioContenido{
+  margin: 20px;
 }
 
 .contenido{
-  margin: 20px;
+  font-size: 18px;
 }
 
 .styleBorder{
   padding: 30px;
   text-align: justify;
-}
-
-.youtube{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
 }
 
 #logoNav{
@@ -112,7 +121,7 @@ footer{
   color: #EDC92C;
 }
 
-@media screen and (min-device-width: 310px) and (max-device-width: 560px){
+@media screen and (min-device-width: 250px) and (max-device-width: 560px){
   .styleTitle{
     font-weight: bold;
     color: #5C790E;

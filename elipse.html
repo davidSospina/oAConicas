@@ -38,8 +38,7 @@
                  <a href="objetivos.html" class="nav-light nav-light active paddingNav styleClassic">Objetivos</a>
                  <a href="contenidos.html" id="paginaActual" class="animated pulse nav-item nav-light active paddingNav styleClassic">¿Qué vas a aprender hoy?</a>
                  <a href="actividades.html" class="nav-item nav-light active paddingNav styleClassic">Actividades</a>
-                 <a href="comoSeUsa.html" class="nav-item nav-light active paddingNav styleClassic">¿Como se usa?</a>
-                <!--
+                 <!--
                  <a class="nav-item dropdown-toggle" href="contenidos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            ¿Qué vas a aprender hoy?
                          </a>
@@ -71,6 +70,7 @@
                     <a class="flex-sm-fill text-sm-center nav-link" href="#definicion">1. Definición</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="#elementos">2. Elementos</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="#ecuaciones">3. Ecuaciones</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#ejemplos">4. Ejemplos</a>
                   </nav>
 
                 </div>
@@ -95,6 +95,7 @@
                   			<li><a href="#definicion" class="icon">1</a></li>
                   			<li><a href="#elementos" class="icon">2</a></li>
                   			<li><a href="#ecuaciones" class="icon">3</a></li>
+                        <li><a href="#ejemplos" class="icon">4</a></li>
                         <li><a href="contenidos.html" class="icon"><img class="imgContenidoFijo" src="./imagenes/inicio.png" alt="Regresar"></a></li>
                   		</ul>
                   	</div>
@@ -246,6 +247,71 @@
                       <img class="imagenElipse" src="./imagenes/elipse5.1.png" alt="Ecuaciones">
                     </div>
                     <p><i>(Representación a la cual hace referencia: simbólica)</i></p>
+
+                    <!-- Ejemplos -->
+                    <hr />
+                    <div class="row" id="ejemplos">
+                      <div class="col-md-12">
+                        <p class="styleSubTitle" id="definicion">Ejemplos</p>
+
+                        <!-- Ejemplo 1 -->
+                        <p class="style2doSubTitle">Ejemplo 1</p>
+                        <p>Determinar la gráfica de la ecuación 25x<sup>2</sup> + 16y<sup>2</sup> + 150x + 128y - 1119 = 0.
+                          Encontrar los vértices, focos, excentricidad y extremos del eje menor.</p>
+                        <p class="style3erSubTitle">Solución</p>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p>25x<sup>2</sup> + 16y<sup>2</sup> + 150x + 128y - 1119 = 0;</p>
+                            <p>Se agrupan los términos de la misma variable:</p>
+                            <p>(25x<sup>2</sup> + 150x) + (16y<sup>2</sup> + 128y) = 1119;</p>
+                            <p>Se factoriza el factor común en cada paréntesis:</p>
+                            <p>25 (x<sup>2</sup> + 6x) + 16(y<sup>2</sup> + 8y) = 1119;</p>
+                            <p>Se adiciona el termino faltante en cada uno de los paréntesis para formar el binomio:</p>
+                            <p>25 (x<sup>2</sup> + 6x + 9) + 16(y<sup>2</sup> + 8y + 16) = 1119 + 25x9 + 16x16;</p>
+                            <p>Se forma el binomio en cada paréntesis y se suman los números después del igual:</p>
+                            <p>25 (x + 3)<sup>2</sup> + 16(y + 4)<sup>2</sup> = 1600</p>
+                            <p>La Elipse debe estar igualada a 1, por lo tanto todo se divide por el (÷ 1600):</p>
+                            <img class="imagenEjemplo" src="./imagenes/imagenEjemplo1Elipse.png" alt="Solución ejemplo 1">
+                            <p>Como el valor que divide a la variable Y, es mayor que el que divide a la variable X, quiere decir, que la elipse es más alargada en Y:</p>
+                            <img class="imagenEjemplo" src="./imagenes/imagen2Ejemplo1Elipse.png" alt="Solución ejemplo 1">
+                            <p>Despejamos con el teorema de Pitágoras y encontramos la excentricidad, y procedemos a graficar:</p>
+                            <p>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> ⇒ 100 = 64 + c<sup>2</sup></p>
+                            <p>⇒ c = 6;    e = c/a = 6/10 = 0,6</p>
+                          </div>
+                          <div class="col-md-6">
+                            <img class="imagenElipse" src="./imagenes/ejemplo1Elipse.png" alt="Solución ejemplo 1">
+                            <p><i>Representación gráfica de la elipse.</i></p>
+                          </div>
+                        </div>
+                        <hr />
+
+                        <!-- Ejemplo 2 -->
+                        <div class="">
+                          <p class="style2doSubTitle">Ejemplo 2</p>
+                          <p>Encontrar una ecuación de la elipse para la cual los focos están en (-8, 2) y (4, 2) y la excentricidad es 2/3. Hacer un dibujo de la elipse.</p>
+                          <p class="style3erSubTitle">Solución</p>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <p>Como la  distancia entre los focos es 12; por lo tanto “c” = 6
+                                Reemplazamos en la fórmula de la excentricidad, y despejamos y
+                                encontramos el valor de a:</p>
+                              <p>e = c/a = 2/3 ⇒ 6/a = 2/3 ⇒ a = 6*3/2 = 9;</p>
+                              <p>Después reemplazamos en el teorema de Pitágoras para encontrar el valor de b:</p>
+                              <p>⇒ a = 9; ⇒  a<sup>2</sup>  = b<sup>2</sup> + c<sup>2</sup>; ⇒ 81 = b<sup>2</sup> + 36;</p>
+                              <img class="imagenEjemplo2" src="./imagenes/imagenEjemplo2Elipse.png" alt="Solución ejemplo 2">
+                              <p>Y procedemos a reemplazar en la ecuación de la elipse y por ultimo graficar la elipse:</p>
+                              <img class="imagenEjemplo2" src="./imagenes/imagen2Ejemplo2Elipse.png" alt="Solución ejemplo 2">
+                            </div>
+                            <div class="col-md-6">
+                              <img class="imagenElipse" src="./imagenes/ejemplo2Elipse.png" alt="Solución ejemplo 2">
+                              <p><i>Representación gráfica de la elipse.</i></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>

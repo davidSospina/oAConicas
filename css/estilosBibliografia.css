@@ -112,7 +112,7 @@ footer{
   color: #EDC92C;
 }
 
-@media screen and (min-device-width: 310px) and (max-device-width: 560px){
+@media screen and (min-device-width: 250px) and (max-device-width: 560px){
   .styleTitle{
     font-weight: bold;
     color: #5C790E;

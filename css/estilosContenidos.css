@@ -89,6 +89,13 @@ footer{
   margin: 15px;
 }
 
+.imagenTitulo{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 6px;
+}
+
 .imagenInicio{
   margin-top: 10px;
 }
@@ -101,13 +108,6 @@ footer{
 .styleBorder{
   padding: 30px;
   text-align: justify;
-}
-
-.youtube{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
 }
 
 #logoNav{

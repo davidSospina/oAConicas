@@ -61,7 +61,7 @@ footer{
 }
 
 .descripcion{
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .bordes{
@@ -83,10 +83,10 @@ footer{
 }
 
 .imagen{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   float: left;
-  margin: 15px;
+  margin: 10px;
 }
 
 .imagenInicio{
@@ -110,6 +110,27 @@ footer{
   width: 200px;
 }
 
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  background-color: #5C790E;
+  border-radius: 40px;
+  float: center;
+  margin: 10px;
+}
+
+.button:hover{
+  background-color: #EDC92C;
+  color: white;
+}
+
+.button:active{
+  background-color: #EDC92C;
+  color: white;
+}
+
 #logoNav{
   width: 60px;
   height: 59.5px;
@@ -119,7 +140,7 @@ footer{
   color: #EDC92C;
 }
 
-@media screen and (min-device-width: 310px) and (max-device-width: 560px){
+@media screen and (min-device-width: 250px) and (max-device-width: 560px){
   .styleTitle{
     font-weight: bold;
     color: #5C790E;

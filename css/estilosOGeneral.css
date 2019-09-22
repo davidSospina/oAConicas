@@ -62,6 +62,7 @@ footer{
 
 .descripcion{
   font-size: 15px;
+  text-align: center;
 }
 
 .bordes{
@@ -93,7 +94,7 @@ footer{
 
 .styleBorder{
   padding: 30px;
-  text-align: justify;
+  text-align: center;
 }
 
 .youtube{
@@ -101,6 +102,27 @@ footer{
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+}
+
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  background-color: #5C790E;
+  border-radius: 40px;
+  float: center;
+  margin: 10px;
+}
+
+.button:hover{
+  background-color: #EDC92C;
+  color: white;
+}
+
+.button:active{
+  background-color: #EDC92C;
+  color: white;
 }
 
 #logoNav{
